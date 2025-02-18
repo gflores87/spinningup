@@ -228,7 +228,7 @@ The very first state of the world, :math:`s_0`, is randomly sampled from the **s
 
     s_0 \sim \rho_0(\cdot).
 
-State transitions (what happens to the world between the state at time :math:`t`, :math:`s_t`, and the state at :math:`t+1`, :math:`s_{t+1}`), are governed by the natural laws of the environment, and depend on only the most recent action, :math:`a_t`. They can be either deterministic,
+State transitions (what happens to the world between the state at time :math:`t`, :math:`s_t`, and the state at :math:`t+1`, :math:`s_{t+1}`), are governed by the natural laws of the environment, and depend only on the most recent action, :math:`a_t`. They can be either deterministic,
 
 .. math::
 
